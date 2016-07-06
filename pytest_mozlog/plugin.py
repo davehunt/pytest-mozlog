@@ -51,7 +51,7 @@ class MozLog(object):
         self.logger = mozlog.get_default_logger(component='pytest')
 
     def pytest_sessionstart(self, session):
-        self.logger.suite_start(getattr(self, 'tests', []))
+        self.logger.suite_start([])
 
     def pytest_sessionfinish(self, session, exitstatus):
         self.logger.suite_end()
