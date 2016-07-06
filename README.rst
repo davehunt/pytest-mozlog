@@ -2,7 +2,7 @@ pytest-mozlog
 =============
 
 pytest-mozlog is a plugin for pytest_ that provides an additional logging
-specialized the Mozilla universe.
+specialized for the Mozilla universe by integrating with mozlog_.
 
 .. image:: https://img.shields.io/badge/license-MPL%202.0-blue.svg
    :target: https://github.com/davehunt/pytest-mozlog/blob/master/LICENSE
@@ -41,5 +41,6 @@ Resources
 - Code_
 
 .. _pytest: http://www.python.org/
+.. _mozlog: http://mozbase.readthedocs.io/en/latest/mozlog.html
 .. _Issue Tracker: http://github.com/davehunt/pytest-mozlog/issues
 .. _Code: http://github.com/davehunt/pytest-mozlog
