@@ -10,7 +10,7 @@ setup(name='pytest-mozlog',
       packages=['pytest_mozlog'],
       install_requires=[
           'pytest>=2.8.7',
-          'mozlog==3.2'],
+          'mozlog==3.3'],
       entry_points={'pytest11': ['base_url = pytest_mozlog.plugin']},
       license='Mozilla Public License 2.0 (MPL 2.0)',
       keywords='py.test pytest logging mozlog mozilla automation',
